@@ -4,6 +4,7 @@
   <name>STM32H7xx_DFP</name>
   <description>STMicroelectronics STM32H7 Series Device Support and Examples</description>
   <url>https://www.keil.com/pack/</url>
+  <repository type="git">https://github.com/Open-CMSIS-Pack/STM32H7xx_DFP.git</repository>
   <license>LICENSE</license>
   <licenseSets>
     <licenseSet id="all" default="true" gating="true">
