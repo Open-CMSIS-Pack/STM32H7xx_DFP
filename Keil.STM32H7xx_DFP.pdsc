@@ -712,7 +712,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0x8000" default="1" />
 
-        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"   access="rwx"         start="0x24000000" size="0x00060000" default="1" init="0"/>
         <memory    name="RAM_D2"   access="rwx"         start="0x30000000" size="0x00008000" default="1" init="0"/>
         <memory    name="RAM_D2S2" access="rwx"         start="0x30020000" size="0x00004000" default="1" init="0"/>
@@ -913,7 +913,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0x8000" default="1" />
 
-        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"   access="rwx"         start="0x24000000" size="0x00080000" default="1" init="0"/>
         <memory    name="RAM_D2"   access="rwx"         start="0x30000000" size="0x00048000" default="1" init="0"/>
         <memory    name="RAM_D3"   access="rwx"         start="0x38000000" size="0x00010000" default="1" init="0"/>
@@ -1112,7 +1112,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0x8000" default="1" />
 
-        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"   access="rwx"         start="0x24000000" size="0x00080000" default="1" init="0"/>
         <memory    name="RAM_D2"   access="rwx"         start="0x30000000" size="0x00048000" default="1" init="0"/>
         <memory    name="RAM_D3"   access="rwx"         start="0x38000000" size="0x00010000" default="1" init="0"/>
@@ -1248,7 +1248,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H7x_128k.FLM" start="0x08000000" size="0x00020000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
 
-        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"  access="rwx"         start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"   access="rwx"         start="0x24000000" size="0x00080000" default="1" init="0"/>
         <memory    name="RAM_D2"   access="rwx"         start="0x30000000" size="0x00048000" default="1" init="0"/>
         <memory    name="RAM_D3"   access="rwx"         start="0x38000000" size="0x00010000" default="1" init="0"/>
@@ -1379,7 +1379,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <algorithm Pname="CM7" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0x8000" default="1" />
         <algorithm Pname="CM4" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x10000000" RAMsize="0x8000" default="1" />
 
-        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory Pname="CM7" name="RAM_D1"   access="rw"             start="0x24000000" size="0x00080000" default="1" init="0"/>
         <memory Pname="CM7" name="RAM_D3"   access="rw"             start="0x38000000" size="0x00010000" default="1" init="0"/>
      <!--memory Pname="CM7" name="ITCMRAM"  access="rw"             start="0x00000000" size="0x00010000" default="1" init="0"/-->
@@ -1587,7 +1587,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <algorithm Pname="CM7" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0x8000" default="1" />
         <algorithm Pname="CM4" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x10000000" RAMsize="0x8000" default="1" />
 
-        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory Pname="CM7" name="RAM_D1"   access="rw"             start="0x24000000" size="0x00080000" default="1" init="0"/>
         <memory Pname="CM7" name="RAM_D3"   access="rw"             start="0x38000000" size="0x00010000" default="1" init="0"/>
      <!--memory Pname="CM7" name="ITCMRAM"  access="rw"             start="0x00000000" size="0x00010000" default="1" init="0"/-->
@@ -1728,7 +1728,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <algorithm Pname="CM7" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0x8000" default="1" />
         <algorithm Pname="CM4" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x10000000" RAMsize="0x8000" default="1" />
 
-        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory Pname="CM7" name="RAM_D1"   access="rw"             start="0x24000000" size="0x00080000" default="1" init="0"/>
         <memory Pname="CM7" name="RAM_D3"   access="rw"             start="0x38000000" size="0x00010000" default="1" init="0"/>
      <!--memory Pname="CM7" name="ITCMRAM"  access="rw"             start="0x00000000" size="0x00010000" default="1" init="0"/-->
@@ -1926,7 +1926,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <algorithm Pname="CM7" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0x8000" default="1" />
         <algorithm Pname="CM4" name="CMSIS/Flash/STM32H7x_2048.FLM" start="0x08000000" size="0x00200000" RAMstart="0x10000000" RAMsize="0x8000" default="1" />
 
-        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory Pname="CM7" name="DTCMRAM"  access="rw"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory Pname="CM7" name="RAM_D1"   access="rw"             start="0x24000000" size="0x00080000" default="1" init="0"/>
         <memory Pname="CM7" name="RAM_D3"   access="rw"             start="0x38000000" size="0x00010000" default="1" init="0"/>
      <!--memory Pname="CM7" name="ITCMRAM"  access="rw"             start="0x00000000" size="0x00010000" default="1" init="0"/-->
@@ -2038,7 +2038,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H7A-B3_Flash_2M.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0xFFF4" default="1" />
 
-        <memory    name="DTCMRAM"     access="rwx"             start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"             start="0x24000000" size="0x00100000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"             start="0x30000000" size="0x00020000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"             start="0x38000000" size="0x00008000" default="1" init="0"/>
@@ -2400,7 +2400,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H7A-B3_Flash_2M.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0xFFF4" default="1" />
 
-        <memory    name="DTCMRAM"     access="rwx"             start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"             start="0x24000000" size="0x00100000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"             start="0x30000000" size="0x00020000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"             start="0x38000000" size="0x00008000" default="1" init="0"/>
@@ -2621,7 +2621,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H7B0_Flash.FLM" start="0x08000000" size="0x00020000" RAMstart="0x20000000" RAMsize="0xFFF4" default="1" />
 
-        <memory    name="DTCMRAM"     access="rwx"        start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"        start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"        start="0x24000000" size="0x00100000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"        start="0x30000000" size="0x00020000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"        start="0x38000000" size="0x00008000" default="1" init="0"/>
@@ -2749,7 +2749,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H72x-73x_1024.FLM" start="0x08000000" size="0x00100000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
 
-        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"           start="0x24000000" size="0x00050000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"           start="0x30000000" size="0x00008000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"           start="0x38000000" size="0x00004000" default="1" init="0"/>
@@ -2892,7 +2892,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H72x-73x_1024.FLM" start="0x08000000" size="0x00100000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
 
-        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"           start="0x24000000" size="0x00050000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"           start="0x30000000" size="0x00008000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"           start="0x38000000" size="0x00004000" default="1" init="0"/>
@@ -3001,7 +3001,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H72x-73x_1024.FLM" start="0x08000000" size="0x00100000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
 
-        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"           start="0x24000000" size="0x00050000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"           start="0x30000000" size="0x00008000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"           start="0x38000000" size="0x00004000" default="1" init="0"/>
@@ -3211,7 +3211,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H72x-73x_1024.FLM" start="0x08000000" size="0x00100000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
 
-        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"           start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"           start="0x24000000" size="0x00050000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"           start="0x30000000" size="0x00008000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"           start="0x38000000" size="0x00004000" default="1" init="0"/>
@@ -3358,7 +3358,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
 
         <algorithm name="CMSIS/Flash/STM32H730xx_128.FLM" start="0x08000000" size="0x00020000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
 
-        <memory    name="DTCMRAM"     access="rwx"        start="0x20000000" size="0x00020000" default="1" init="0"/>
+        <memory    name="DTCMRAM"     access="rwx"        start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"        start="0x24000000" size="0x00050000" default="1" init="0"/>
         <memory    name="RAM_D2"      access="rwx"        start="0x30000000" size="0x00008000" default="1" init="0"/>
         <memory    name="RAM_D3"      access="rwx"        start="0x38000000" size="0x00004000" default="1" init="0"/>
