@@ -1,6 +1,6 @@
 # A solution is a collection of related projects that share same base configuration.
 solution:
-  created-for: CMSIS-Toolbox@2.3.0
+  created-for: CMSIS-Toolbox@2.6.0
   cdefault:
 
   # List the packs that define the device and/or board.
