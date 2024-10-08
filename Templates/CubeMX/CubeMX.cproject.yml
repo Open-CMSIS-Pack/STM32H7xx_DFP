@@ -1,6 +1,6 @@
 # A project translates into one executable or library.
 project:
-  
+
   # List components to use for your application.
   # A software component is a re-usable unit that may be configurable.
   components:

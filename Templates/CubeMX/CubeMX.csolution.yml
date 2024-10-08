@@ -3,6 +3,12 @@ solution:
   created-for: CMSIS-Toolbox@2.6.0
   cdefault:
 
+  # List of tested compilers that can be selected
+  select-compiler:
+    - compiler: AC6
+    - compiler: GCC
+    - compiler: IAR
+
   # List the packs that define the device and/or board.
   packs:
     - pack: Keil::STM32H7xx_DFP
