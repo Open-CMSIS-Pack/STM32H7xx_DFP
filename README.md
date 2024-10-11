@@ -6,8 +6,6 @@ This is the development repository for the **STMicroelectronics STM32H7 Series D
 
 This DFP uses the generator integration of the [CMSIS-Toolbox to Configure STM32 Devices with CubeMX](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md) that is also supported in µVision 5.40 an higher.
 
-> **Note:** This is currently Work in Progress. Final release is expected in Q3'2024.
-
 ## Repository top-level structure
 
 Directory                   | Description
