@@ -5,31 +5,21 @@
   <description overview="Documents/OVERVIEW.md">STMicroelectronics STM32H7 Series Device Support</description>
   <url>https://www.keil.com/pack/</url>
   <repository type="git">https://github.com/Open-CMSIS-Pack/STM32H7xx_DFP.git</repository>
-  <license>LICENSE</license>
+  <license>LICENSES</license>
   <licenseSets>
     <licenseSet id="all" default="true" gating="true">
-      <license name="LICENSE" title="Apache 2.0 open-source license" spdx="Apache-2.0"/>
+      <license title="Apache-2.0 License for CMSIS add-ons"                  name="LICENSE-Apache-2.0"   spdx="Apache-2.0"/>
+      <license title="BSD-3-Clause License for STMicroelectronics STM32 HAL" name="LICENSE-BSD-3-Clause" spdx="BSD-3-Clause"/>
     </licenseSet>
   </licenseSets>
 
   <releases>
-    <release version="4.0.0-dev">
-      Updated for new CMSIS-Toolbox CubeMX integration
-      Removed CMSIS Drivers
-      Removed STM32CubeMX_FW_H7
-      Removed board drivers (ADC, Buttons, GLCD, LED...)
-      Removed all examples
-      Removed previous generator (gpdsc)
-      Added new global generator
-      Package Description (pdsc):
-      - Removed Device:Startup component
-      - Removed Device:STM32Cube HAL components
-      - Removed Device:STM32Cube LL components
-      - Removed Board descriptions
-      - Removed BSP components
-      - Removed compile device header from device description
-      - Removed unused conditions
-      - Replaced documentation files with permalinks
+    <release version="4.0.1-dev">
+      Active development...
+      Reorganized Licenses:
+      - LICENSES (combined license file: Apache-2.0 and BSD-3-Clause)
+      - LICENSE-Apache-2.0 (for CMSIS add-ons)
+      - LICENSE-BSD-3-Clause (for STM32 HAL)
     </release>
     <release version="3.1.1" date="2023-07-04">
       Board Support:
