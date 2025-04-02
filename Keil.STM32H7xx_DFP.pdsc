@@ -13,23 +13,9 @@
   </licenseSets>
 
   <releases>
-    <release version="4.0.0-dev">
-      Updated for new CMSIS-Toolbox CubeMX integration
-      Removed CMSIS Drivers
-      Removed STM32CubeMX_FW_H7
-      Removed board drivers (ADC, Buttons, GLCD, LED...)
-      Removed all examples
-      Removed previous generator (gpdsc)
-      Added new global generator
-      Package Description (pdsc):
-      - Removed Device:Startup component
-      - Removed Device:STM32Cube HAL components
-      - Removed Device:STM32Cube LL components
-      - Removed Board descriptions
-      - Removed BSP components
-      - Removed compile device header from device description
-      - Removed unused conditions
-      - Replaced documentation files with permalinks
+    <release version="4.0.1-dev">
+      Active development ...
+      Updated documentation references
     </release>
     <release version="3.1.1" date="2023-07-04">
       Board Support:
@@ -659,7 +645,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h743vi.pdf" title="STM32H742xI/G STM32H743xI/G Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H742_743_753_750.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -860,7 +846,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://developer.arm.com/documentation/dui0646/latest" title="Cortex-M7 Generic User Guide"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H742_743_753_750.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -1059,7 +1045,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h753vi.pdf" title="STM32H753 Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H742_743_753_750.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -1195,7 +1181,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h750ib.pdf" title="STM32H750VB STM32H750IB STM32H750XB Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H742_743_753_750.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -1316,7 +1302,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         </description>
 
         <debugvars configfile="CMSIS/Debug/STM32H745_747_755_757.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 5] DBGSTBY_D2, [ 4] DBGSTOP_D2,  [ 3] DBGSLEEP_D2
@@ -1524,7 +1510,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         </description>
 
         <debugvars configfile="CMSIS/Debug/STM32H745_747_755_757.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 5] DBGSTBY_D2, [ 4] DBGSTOP_D2,  [ 3] DBGSLEEP_D2
@@ -1665,7 +1651,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         </description>
 
         <debugvars configfile="CMSIS/Debug/STM32H745_747_755_757.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 5] DBGSTBY_D2, [ 4] DBGSTOP_D2,  [ 3] DBGSLEEP_D2
@@ -1863,7 +1849,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         </description>
 
         <debugvars configfile="CMSIS/Debug/STM32H745_747_755_757.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 5] DBGSTBY_D2, [ 4] DBGSTOP_D2,  [ 3] DBGSLEEP_D2
@@ -1985,7 +1971,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h7a3ai.pdf" title="STM32H7A3xI/G Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H7A3_7B3_7B0.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -2347,7 +2333,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h7b3ri.pdf" title="STM32H7B3xI/G Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H7A3_7B3_7B0.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -2568,7 +2554,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf" title="STM32H7B0xB Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H7A3_7B3_7B0.dbgconf" version="1.1.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -2693,7 +2679,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h723zg.pdf" title="STM32H723VE STM32H723VG STM32H723ZE STM32H723ZG Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H723_725_730_733_735.dbgconf" version="1.0.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -2836,7 +2822,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h733vg.pdf" title="STM32H733VG STM32H733ZG Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H723_725_730_733_735.dbgconf" version="1.0.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -2945,7 +2931,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h725ae.pdf" title="STM32H725xE/G Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H723_725_730_733_735.dbgconf" version="1.0.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -3155,7 +3141,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h735zg.pdf" title="STM32H735xG Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H723_725_730_733_735.dbgconf" version="1.0.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -3302,7 +3288,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         <book name="https://www.st.com/resource/en/datasheet/stm32h730ab.pdf" title="STM32H730AB STM32H730IB STM32H730VB STM32H730ZB Data Sheet"/>
 
         <debugvars configfile="CMSIS/Debug/STM32H723_725_730_733_735.dbgconf" version="1.0.0">
-          // Debug Access Variables, can be modified by user via copies of DBGCONF files as created by uVision. Also see sub-family level.
+          // Default values for variables in debug sequences are configured with a *.dbgconf file in the user project
           __var DbgMCU_CR        = 0x00000007;   // DBGMCU_CR:       DBGMCU configuration register
                                                  //                  [ 8] DBGSTBY_D3, [ 7] DBGSTOP_D3
                                                  //                  [ 2] DBGSTBY_D1, [ 1] DBGSTOP_D1,  [ 0] DBGSLEEP_D1
@@ -3459,7 +3445,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
         #define CMSIS_device_header "stm32h7xx.h"
       </RTE_Components_h>
       <files>
-        <file category="doc" name="https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md"/>
+        <file category="doc" name="https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX"/>
       </files>
     </component>
   </components>

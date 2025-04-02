@@ -25,7 +25,7 @@ This DFP is tested with the [CMSIS-Driver_STM32](https://www.keil.arm.com/packs/
 
 ## CubeMX Support
 
-The device is configured using [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) (CubeMX). Refer to [CMSIS-Toolbox - Configure STM32 Devices with CubeMX](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md) for usage information with *csolution projects*.
+The device is configured using [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) (CubeMX). Refer to [CMSIS-Toolbox - Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX) for usage information with *csolution projects*.
 
 Add this component to your *csolution project* to connect to CubeMX.
 
@@ -51,7 +51,7 @@ The [VS Code Arm CMSIS Solution](https://marketplace.visualstudio.com/items?item
 
 > **Note:**
 >
-> Refer to [CMSIS-Toolbox - Configure STM32 Devices with CubeMX](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md) for usage information. It contains useful hints, for example for the configuration of an [RTOS](  https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md#add-rtos).
+> Refer to [CMSIS-Toolbox - Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX) for usage information. It contains useful hints, for example for the configuration of an [RTOS](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/#adding-an-rtos).
 
 ## Usage in uVision
 
