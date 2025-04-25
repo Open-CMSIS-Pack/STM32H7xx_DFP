@@ -287,20 +287,20 @@
       <!--book name="Documentation/?.pdf" title="STM32H7xx HAL Drivers"/-->
 
       <algorithm name="CMSIS/Flash/STM32H7B3I_EVAL_FMC-NOR.FLM"        start="0x60000000" size="0x04000000" RAMstart="0x24000000" RAMsize="0xA0000" default="0" />
-      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H747I-DISCO.FLM"     start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
-      <algorithm name="CMSIS/Flash/MTFC4GACAJCN_STM32H750B-DISCO.FLM"  start="0xA0000000" size="0x20000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
-      <algorithm name="CMSIS/Flash/STM32H7xx_MT25TL01G.FLM"            start="0x90000000" size="0x04000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
-      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H750B-DISCO.FLM"     start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
-      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H745I-DISCO.FLM"     start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
-      <algorithm name="CMSIS/Flash/STM32H743I-eval_FMC.FLM"            start="0x60000000" size="0x01000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
+      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H747I-DISCO.FLM"     start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
+      <algorithm name="CMSIS/Flash/MTFC4GACAJCN_STM32H750B-DISCO.FLM"  start="0xA0000000" size="0x20000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
+      <algorithm name="CMSIS/Flash/STM32H7xx_MT25TL01G.FLM"            start="0x90000000" size="0x04000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
+      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H750B-DISCO.FLM"     start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
+      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H745I-DISCO.FLM"     start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
+      <algorithm name="CMSIS/Flash/STM32H743I-eval_FMC.FLM"            start="0x60000000" size="0x01000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
       <algorithm name="CMSIS/Flash/MX25LM51245G_STM32H7B3I-EVAL.FLM"   start="0x90000000" size="0x04000000" RAMstart="0x24000000" RAMsize="0xA0000" default="0" />
       <algorithm name="CMSIS/Flash/MX25LM51245G_STM32H7B3I-Disco.FLM"  start="0x90000000" size="0x04000000" RAMstart="0x24000000" RAMsize="0xA0000" default="0" />
       <algorithm name="CMSIS/Flash/MX25LM51245G_STM32H7B0-EVAL.FLM"    start="0x90000000" size="0x04000000" RAMstart="0x24000000" RAMsize="0xA0000" default="0" />
       <algorithm name="CMSIS/Flash/MX25LM51245G_STM32H7B0-Disco.FLM"   start="0x90000000" size="0x04000000" RAMstart="0x24000000" RAMsize="0xA0000" default="0" />
-      <algorithm name="CMSIS/Flash/MX25LM51245G_STM32H735-Disco.FLM"   start="0x90000000" size="0x04000000" RAMstart="0x24000000" RAMsize="0xFFF4"  default="0" />
-      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H747I-EVAL.FLM"      start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
+      <algorithm name="CMSIS/Flash/MX25LM51245G_STM32H735-Disco.FLM"   start="0x90000000" size="0x04000000" RAMstart="0x24000000" RAMsize="0xFFF0"  default="0" />
+      <algorithm name="CMSIS/Flash/MT25TL01G_STM32H747I-EVAL.FLM"      start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
       <!-- obsolete algorithms -->
-      <algorithm name="CMSIS/Flash/STM32H7xx_MT25TL01G_DUAL.FLM"       start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF4"  default="0" />
+      <algorithm name="CMSIS/Flash/STM32H7xx_MT25TL01G_DUAL.FLM"       start="0x90000000" size="0x08000000" RAMstart="0x20000000" RAMsize="0xFFF0"  default="0" />
 
       <description>
 The STM32H7 series now includes dual-core microcontrollers with Arm Cortex-M7 and Cortex-M4 cores able to run up to 480 MHz and 240 MHz respectively.
@@ -2022,7 +2022,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
           </sequence>
         </sequences>
 
-        <algorithm name="CMSIS/Flash/STM32H7A-B3_Flash_2M.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0xFFF4" default="1" />
+        <algorithm name="CMSIS/Flash/STM32H7A-B3_Flash_2M.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0xFFF0" default="1" />
 
         <memory    name="DTCMRAM"     access="rwx"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"             start="0x24000000" size="0x00100000" default="1" init="0"/>
@@ -2384,7 +2384,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
           </sequence>
         </sequences>
 
-        <algorithm name="CMSIS/Flash/STM32H7A-B3_Flash_2M.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0xFFF4" default="1" />
+        <algorithm name="CMSIS/Flash/STM32H7A-B3_Flash_2M.FLM" start="0x08000000" size="0x00200000" RAMstart="0x20000000" RAMsize="0xFFF0" default="1" />
 
         <memory    name="DTCMRAM"     access="rwx"             start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"             start="0x24000000" size="0x00100000" default="1" init="0"/>
@@ -2605,7 +2605,7 @@ The STM32H7 series remains more than ever the microcontroller with an embedded F
           </sequence>
         </sequences>
 
-        <algorithm name="CMSIS/Flash/STM32H7B0_Flash.FLM" start="0x08000000" size="0x00020000" RAMstart="0x20000000" RAMsize="0xFFF4" default="1" />
+        <algorithm name="CMSIS/Flash/STM32H7B0_Flash.FLM" start="0x08000000" size="0x00020000" RAMstart="0x20000000" RAMsize="0xFFF0" default="1" />
 
         <memory    name="DTCMRAM"     access="rwx"        start="0x20000000" size="0x00020000" default="0" init="0"/>
         <memory    name="RAM_D1"      access="rwx"        start="0x24000000" size="0x00100000" default="1" init="0"/>
