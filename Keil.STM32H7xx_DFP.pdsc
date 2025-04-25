@@ -15,6 +15,7 @@
   <releases>
     <release version="4.0.1-dev">
       Active development ...
+      Corrected the RAM-size of Flash algorithms to double-word aligned values to avoid errors with Arm Debugger version 6.5.0
       Updated documentation references
     </release>
     <release version="3.1.1" date="2023-07-04">
